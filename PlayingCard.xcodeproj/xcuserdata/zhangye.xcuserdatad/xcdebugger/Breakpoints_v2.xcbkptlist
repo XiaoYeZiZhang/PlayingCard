@@ -7,16 +7,64 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3C26B698-5AA0-462C-9B86-0702478C90FF"
-            shouldBeEnabled = "No"
+            uuid = "617F563B-5265-456B-BA63-AD974F6A8585"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PlayingCard/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "FlipCard(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "617F563B-5265-456B-BA63-AD974F6A8585 - 83e4da8846e9295b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Bool) -&gt; () in PlayingCard.ViewController.FlipCard(__C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "PlayingCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangye/Developer/PlayingCard/PlayingCard/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "797">
+               </Location>
+               <Location
+                  uuid = "617F563B-5265-456B-BA63-AD974F6A8585 - 3504849fd5fd6903"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (PlayingCard.PlayingCardView) -&gt; () in closure #2 (Swift.Bool) -&gt; () in PlayingCard.ViewController.FlipCard(__C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "PlayingCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangye/Developer/PlayingCard/PlayingCard/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "49">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF135FCA-C57B-4D4E-ADFD-5A1B176FBDFA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayingCard/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "FlipCard(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
