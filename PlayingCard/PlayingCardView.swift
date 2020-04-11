@@ -37,16 +37,6 @@ class PlayingCardView: UIView {
         }
     }
     
-    @objc func changeFaceCardImageRatio(ByHandlingGestureRecognizedBy recognizer: UIPinchGestureRecognizer) {
-        switch recognizer.state {
-        case .ended, .changed:
-            faceCardImageRaio *= recognizer.scale
-            recognizer.scale = 1.0
-        default:
-            break
-        }
-        
-    }
     
     private func centeredAttributedString(_ string: String, fontSize: CGFloat)->NSAttributedString {
         var font = UIFont.preferredFont(forTextStyle: .body).withSize(fontSize)
